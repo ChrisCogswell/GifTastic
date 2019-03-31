@@ -1,18 +1,18 @@
 body {
-    background-color: rgb(162, 97, 223);
+    background-color: rgb(87, 178, 214)
 }
 
-/* #gif, #gif2 {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 10px;
+.gif {
+    float: left;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#header {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
