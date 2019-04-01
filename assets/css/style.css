@@ -15,4 +15,25 @@ img {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    background-color: teal;
+    font-family: 'Orbitron', sans-serif;
 }
+
+button {
+    margin-left: 5px;
+}
+
+#topic-form {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* font-family: 'Righteous', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Orbitron', sans-serif; */
