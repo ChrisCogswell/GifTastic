@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(87, 178, 214)
+    background: url(../images/80sbackground.jpg);
+    color: orangered;
 }
 
 .gif {
@@ -13,10 +14,11 @@ img {
 
 #header {
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    background-color: teal;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-color: rgb(44, 44, 44);
     font-family: 'Orbitron', sans-serif;
+    color: rgb(255, 19, 137);
 }
 
 button {
@@ -26,13 +28,30 @@ button {
 #topic-form {
     margin-top: 10px;
     margin-left: 5px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
 }
 
 p {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 15px;
+    color: rgb(179, 255, 0);
+    font-family: 'Orbitron', sans-serif;
+
 }
+
+.topic-btn {
+    background: rgb(76, 0, 255);
+    font-family: 'Righteous', cursive;
+
+}
+
+.subHeader {
+    font-family: 'Satisfy', cursive;
+    font-style: italic;
+}
+
 
 /* font-family: 'Righteous', cursive;
 font-family: 'Satisfy', cursive;

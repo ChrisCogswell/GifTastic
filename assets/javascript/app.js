@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // This needs to be changed from trending to search
     
-    var topics = ["movies", "funny", "dogs", "video games"];
+    var topics = ["Miami Vice", "Fast Times", "Whitesnake", "Scarface", " The Last Dragon", "Run DMC", "NES"];
     
     
     function generateGif() {
@@ -47,7 +47,7 @@ function makeButton(){
     
     for (var i = 0; i < topics.length; i++){
         
-        var b = $("<button type='button' class='btn btn-success btn-lg'>");
+        var b = $("<button type='button' class='btn btn-danger btn-lg'>");
         
         b.addClass("topic-btn");
         b.attr("data-name", topics[i]);
